@@ -1,0 +1,42 @@
+/* General Styling for Task Cards */
+.card {
+  border: none;
+  border-radius: 8px;
+  margin-bottom: 5px; /* Adjust the gap between individual task cards */
+  box-shadow: none; /* Remove any extra box shadow if not required */
+}
+
+.card-body {
+  padding: 10px; /* Reduced padding inside cards */
+  margin-bottom: 0; /* Make sure there is no extra margin inside card */
+}
+
+.card-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #007bff;
+  margin-bottom: 8px; /* Reduced margin below the title */
+}
+
+.card-text {
+  font-size: 14px;
+  color: #6c757d;
+}
+
+.card-body button {
+  margin-top: 10px; /* Margin above the delete button */
+}
+
+/* Container for task cards - make sure no extra space here */
+.today-tasks, .upcoming-tasks {
+  background-color: #fff;
+  padding: 15px 20px; /* Reduced padding between sections */
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 15px; /* Adjust section margin */
+}
+
+/* Remove extra margin or padding between task items */
+.today-tasks .card, .upcoming-tasks .card {
+  margin-bottom: 5px; /* Reduce margin between individual task cards */
+}
